@@ -7,22 +7,22 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = 26090790
-API_HASH = "fbe01ca61b6a977f85dc57a80fd2e7cb"
+API_ID = 22736752
+API_HASH = "274dcb8d3faf32bc3390886f18642df5"
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "8058270700:AAHn0wZAV2oyLn_2y6UpWQGApCuvFKklSeY"
+BOT_TOKEN = "7678366178:AAEFPBH8kAiUyMrNbaLi1P0oYLv9HPiu8oc"
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "mongodb+srv://shreemananuj:shreemananuj@cluster0.72mam.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_DB_URI = "mongodb+srv://himanshukumar30426@cluster0.gggbet1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
 
 # Chat id of a group for logging bot's activities
-LOG_GROUP_ID = -1002401044938
+LOG_GROUP_ID = -1002564548018
 
 # Get this value from @ultron2_robot on Telegram by /id
-OWNER_ID = 7138928141
+OWNER_ID = 7846862619
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
@@ -62,11 +62,11 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", 2145386496))
 
 
 # Get your pyrogram v2 session from Replit
-STRING1 = "BQGOHSYAIsjQ3nexRRfYhq8mOLkgt5PlwuH0VaWlGpxDZNL2KTQU806PoPIIHTHNohy45s30volbRHBZZtaN8PZthQrq1rPUgQcyWnJvmW8VjBnk5kPpq_TmcZtKGDV1L_VJc-egGiuLEBUidtUi-rCeIgt5CsruQgCydzkLXE1crq_a5IA0iJmsFGsGfozBk5SGMpg7LBdkrQiyGYVUP15pgJdY7DkCHXRxSxjg9HY4E_4T1PVMaqJabajmfSzXg5KEP4hVuifwXM47KCOzcppKryW3rajlIW0bxCjI3pHQAUsJTxQZbCLnkWOzvx6mckdU2--eibmVq_5LauQVIBBZlB3KRQAAAAGpg2YNAA"
-STRING2 = getenv("STRING_SESSION2", None)
-STRING3 = getenv("STRING_SESSION3", None)
-STRING4 = getenv("STRING_SESSION4", None)
-STRING5 = getenv("STRING_SESSION5", None)
+STRING1 = "BQFa73AAjet9rLGCyudz3zKtoS-CeOItDJhqAeHLbruDHFqCIyxOtelmGyUha0HFfEhG0EVc7h-xzPbadUxzDPHtYca0zvyArYgPM99_6cSeRu8m25kSZB9ifXVkWlaytn70ZbtVZxNS4zfgPsQAd5GHw1oJZbEpCX9HalyBCjj6FHbJ_npx0qjfego3_d4qCZjC0fopO2AD7LAYYoYNA3hoJyZU2aKyGB6VZwNjUE99e-Nbq0SsgjPhfd6BeoLmMNTIOUepxeGaz7M7VAzfJ8_Z1ccc57AIomD_PdQpRDo15dO-0BQbCcpVNM7Nrn9HKieTWA6bZBrkKdgmBtjTkK7Ahi8QSAAAAAHTtZ8bAASzXg5KEP4hVuifwXM47KCOzcppKryW3rajlIW0bxCjI3pHQAUsJTxQZbCLnkWOzvx6mckdU2--eibmVq_5LauQVIBBZlB3KRQAAAAGpg2YNAA"
+STRING2 = getenv("BQFa73AAjet9rLGCyudz3zKtoS-CeOItDJhqAeHLbruDHFqCIyxOtelmGyUha0HFfEhG0EVc7h-xzPbadUxzDPHtYca0zvyArYgPM99_6cSeRu8m25kSZB9ifXVkWlaytn70ZbtVZxNS4zfgPsQAd5GHw1oJZbEpCX9HalyBCjj6FHbJ_npx0qjfego3_d4qCZjC0fopO2AD7LAYYoYNA3hoJyZU2aKyGB6VZwNjUE99e-Nbq0SsgjPhfd6BeoLmMNTIOUepxeGaz7M7VAzfJ8_Z1ccc57AIomD_PdQpRDo15dO-0BQbCcpVNM7Nrn9HKieTWA6bZBrkKdgmBtjTkK7Ahi8QSAAAAAHTtZ8bAA", None)
+STRING3 = getenv("BQFa73AAjet9rLGCyudz3zKtoS-CeOItDJhqAeHLbruDHFqCIyxOtelmGyUha0HFfEhG0EVc7h-xzPbadUxzDPHtYca0zvyArYgPM99_6cSeRu8m25kSZB9ifXVkWlaytn70ZbtVZxNS4zfgPsQAd5GHw1oJZbEpCX9HalyBCjj6FHbJ_npx0qjfego3_d4qCZjC0fopO2AD7LAYYoYNA3hoJyZU2aKyGB6VZwNjUE99e-Nbq0SsgjPhfd6BeoLmMNTIOUepxeGaz7M7VAzfJ8_Z1ccc57AIomD_PdQpRDo15dO-0BQbCcpVNM7Nrn9HKieTWA6bZBrkKdgmBtjTkK7Ahi8QSAAAAAHTtZ8bAA", None)
+STRING4 = getenv("BQFa73AAjet9rLGCyudz3zKtoS-CeOItDJhqAeHLbruDHFqCIyxOtelmGyUha0HFfEhG0EVc7h-xzPbadUxzDPHtYca0zvyArYgPM99_6cSeRu8m25kSZB9ifXVkWlaytn70ZbtVZxNS4zfgPsQAd5GHw1oJZbEpCX9HalyBCjj6FHbJ_npx0qjfego3_d4qCZjC0fopO2AD7LAYYoYNA3hoJyZU2aKyGB6VZwNjUE99e-Nbq0SsgjPhfd6BeoLmMNTIOUepxeGaz7M7VAzfJ8_Z1ccc57AIomD_PdQpRDo15dO-0BQbCcpVNM7Nrn9HKieTWA6bZBrkKdgmBtjTkK7Ahi8QSAAAAAHTtZ8bAA", None)
+STRING5 = getenv("BQFa73AAjet9rLGCyudz3zKtoS-CeOItDJhqAeHLbruDHFqCIyxOtelmGyUha0HFfEhG0EVc7h-xzPbadUxzDPHtYca0zvyArYgPM99_6cSeRu8m25kSZB9ifXVkWlaytn70ZbtVZxNS4zfgPsQAd5GHw1oJZbEpCX9HalyBCjj6FHbJ_npx0qjfego3_d4qCZjC0fopO2AD7LAYYoYNA3hoJyZU2aKyGB6VZwNjUE99e-Nbq0SsgjPhfd6BeoLmMNTIOUepxeGaz7M7VAzfJ8_Z1ccc57AIomD_PdQpRDo15dO-0BQbCcpVNM7Nrn9HKieTWA6bZBrkKdgmBtjTkK7Ahi8QSAAAAAHTtZ8bAA", None)
 
 
 BANNED_USERS = filters.user()
@@ -77,20 +77,20 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = "https://graph.org/file/b1ecc259bc1145717053f-71be50868489f04316.jpg"
+START_IMG_URL = "https://graph.org/file/958070df4bff4ccc1e624-8071717ec7f1efb828.jpg"
 
-PING_IMG_URL = "https://graph.org/file/b1ecc259bc1145717053f-71be50868489f04316.jpg"
+PING_IMG_URL = "https://graph.org/file/958070df4bff4ccc1e624-8071717ec7f1efb828.jpg"
 
-PLAYLIST_IMG_URL = "https://graph.org/file/b1ecc259bc1145717053f-71be50868489f04316.jpg"
-STATS_IMG_URL = "https://graph.org/file/b1ecc259bc1145717053f-71be50868489f04316.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/b1ecc259bc1145717053f-71be50868489f04316.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/b1ecc259bc1145717053f-71be50868489f04316.jpg"
-STREAM_IMG_URL = "https://graph.org/file/b1ecc259bc1145717053f-71be50868489f04316.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/b1ecc259bc1145717053f-71be50868489f04316.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/958070df4bff4ccc1e624-8071717ec7f1efb828.jpg"
+STATS_IMG_URL = "https://graph.org/file/958070df4bff4ccc1e624-8071717ec7f1efb828.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/958070df4bff4ccc1e624-8071717ec7f1efb828.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/958070df4bff4ccc1e624-8071717ec7f1efb828.jpg"
+STREAM_IMG_URL = "https://graph.org/file/958070df4bff4ccc1e624-8071717ec7f1efb828.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/958070df4bff4ccc1e624-8071717ec7f1efb828.jpg"
 YOUTUBE_IMG_URL = "https://graph.org/file/b1ecc259bc1145717053f-71be50868489f04316.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/b1ecc259bc1145717053f-71be50868489f04316.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/b1ecc259bc1145717053f-71be50868489f04316.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/958070df4bff4ccc1e624-8071717ec7f1efb828.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/958070df4bff4ccc1e624-8071717ec7f1efb828.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/958070df4bff4ccc1e624-8071717ec7f1efb828.jpg"
 
 
 def time_to_seconds(time):
